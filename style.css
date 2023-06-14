@@ -40,7 +40,10 @@ sup:hover{
 	font-size: 70;
 	padding: 5px;
 }
-
+span.fig
+{
+	background: yellow;
+} 
 
 
 .cit {
