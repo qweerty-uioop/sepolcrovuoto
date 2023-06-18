@@ -34,7 +34,7 @@ var images = [
 
 ];
 	var i=0; 
-	var time = 1000; //20s
+	var time = 20000; //20s
 
 
 function shuffle(images){
@@ -50,6 +50,7 @@ function changeImg(){
 				document.body.style.background = 'white';
 				document.getElementById("fp").style.color="black";
 				document.getElementById("text").style.color="black";
+				document.getElementById("texteng").style.color="black";
 				document.getElementById("eng").style.color="black";
 				document.getElementById("divTitolo").style.background="transparent";
 
