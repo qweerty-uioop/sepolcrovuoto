@@ -1,0 +1,59 @@
+#testo {
+	background: transparent;
+	position: relative;
+	width:50%;
+	padding-top: 10px;
+	padding-right: 40%;
+	padding left:0px;
+	height: 600px;
+	resize: none;
+  	overflow-y: auto;
+  	overflow-x: scroll;
+}
+#testo:hover{
+	z-index: +1;
+}
+
+#wrapper {
+	background: transparent;
+	position:fixed;
+	bottom:0px;
+	left: 10%;
+	height:55%;
+	width: 1000px;
+	display: flex;
+	align-items: center;
+	overflow-x:scroll;
+	overflow-y: scroll;
+	z-index: +1;
+	
+}
+
+sup {
+color: white;
+font-size: 40;
+background-color: blue;
+padding: 3px;
+}
+
+sup:hover{
+	font-size: 70;
+	padding: 5px;
+}
+span.fig
+{
+	background: yellow;
+} 
+
+
+.cit {
+position: absolute;
+background: blue;
+padding:2px;
+display: none;
+color:white;
+right: 0px;
+width:auto;
+max-width: 40%;
+
+}
